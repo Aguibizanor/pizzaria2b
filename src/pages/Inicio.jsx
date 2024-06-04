@@ -6,7 +6,7 @@ const Home = () => {
 
     return (
         <div>
-            <h2>Izonça Sapins</h2>
+            <h2>Izonça Sapin</h2>
            <p>Outra tela Inicial</p>
                 <img className='img-fluid' src={logo}
                         alt='logo' />
