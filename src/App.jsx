@@ -2,11 +2,11 @@ import {useState} from 'react'
 import { Routes, Route} from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
-import Inicio from './' /*Colocar este caminho depois*/
+import Inicio from './pages/Inicio'
 
 const App = () => {
 
-  const [color] = useState("#eb8d04")
+  const [color] = useState("#836FFF")
   document.body.style.backgroundColor = color
 
   return (
@@ -14,6 +14,7 @@ const App = () => {
       <div>
         <Routes>
           <Route path='/' element={<Home/>} />
+          <Route path="/inicio" element={<Inicio/>} />
         </Routes>
       </div>
     </div>
